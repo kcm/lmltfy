@@ -2,8 +2,8 @@
 <html>
   <head>
     <script type="text/javascript">
-     const urlParams = new URLSearchParams(window.location.search);
-      window.location.href = "https://www.lmgtfy.com/?q=site:elastic.co+" + urlParams.get('q');
+      const urlParams = new URLSearchParams(window.location.search);
+      window.location.href = "https://www.lmgtfy.com/?q=site:elastic.co+" + (urlParams.get('q') || 'luca');
     </script>
   </head>
   <body>
